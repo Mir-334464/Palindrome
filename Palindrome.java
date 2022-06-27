@@ -8,9 +8,10 @@ class Palindrome
 		int rev = 0;
 		int rem;
 
-		System.out.println("Enter 4 digit number : ");
+		System.out.print("\n\t\t\tEnter number : ");
 			int n = sc.nextInt();
-
+		
+		System.out.println("\n\t\t\t===================");
 		int i = n;
 
 		while(i!=0)
@@ -23,8 +24,8 @@ class Palindrome
 		}
 		
 			if(n==rev)
-				System.out.println("Number is Palindrome");
+				System.out.println("\n\t\t\tNumber is Palindrome");
 			else
-				System.out.println("Number is not Palindrome");
+				System.out.println("\n\t\t\tNumber is not Palindrome");
 	}
 }
