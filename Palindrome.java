@@ -11,7 +11,7 @@ class Palindrome
 		System.out.print("\n\t\t\tEnter number : ");
 			int n = sc.nextInt();
 		
-		System.out.println("\n\t\t\t===================");
+		System.out.println("\n\t\t\t=============");
 		int i = n;
 
 		while(i!=0)
